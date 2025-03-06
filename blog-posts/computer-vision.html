@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Vision Basics - Prerogative Pointers</title>
+  
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  
+  <!-- Main CSS Files -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/blog-style.css" rel="stylesheet">
+  <link href="../assets/css/blog-post-style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto">
+        <a href="../index.html">
+          <img src="../assets/img/PP-logo.webp" alt="Prerogative Pointers Logo" />
+        </a>
+      </h1>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="../index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#mission">Mission</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#Gallery">Team</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#spaceship">Upcoming Events</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#team">Archieve</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <a href="../technical-blog.html" class="get-started-btn scrollto active">BLOG!</a>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main" class="mt-5">
+    <!-- Blog Post Content -->
+    <section class="blog-post-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <!-- Back Button -->
+            <div class="back-button-container">
+              <a href="../technical-blog.html" class="back-button">
+                <i class="bi bi-arrow-left"></i> Back to Blog
+              </a>
+            </div>
+            
+            <!-- Post Header -->
+            <div class="post-header">
+              <div class="post-category" id="post-category">Computer Vision</div>
+              <h1 class="post-title" id="post-title">Computer Vision Basics</h1>
+              <div class="post-meta">
+                <span class="post-date" id="post-date">May 18, 2024</span>
+                <span class="post-author" id="post-author">By Vaibhav Kesharwani</span>
+              </div>
+            </div>
+            
+            <!-- Featured Image -->
+            <div class="post-featured-image">
+              <img src="../assets/img/blog/computer-vision.jpg" alt="Computer Vision" class="img-fluid" id="post-image">
+            </div>
+            
+            <!-- Post Content -->
+            <div class="post-content">
+              <p>Computer Vision is a field of artificial intelligence that enables computers to interpret and understand the visual world. Through digital images and videos, machines can accurately identify and classify objects, and then react to what they "see."</p>
+              
+              <h2>Understanding Computer Vision</h2>
+              <p>Computer Vision is like giving computers the ability to see and interpret the world similar to how humans do. It involves acquiring, processing, analyzing, and understanding digital images to extract meaningful information.</p>
+              
+              <h2>Core Components of Computer Vision</h2>
+              
+              <h3>1. Image Acquisition</h3>
+              <p>The process of capturing or creating digital images through cameras, sensors, or existing digital content.</p>
+              
+              <h3>2. Image Processing</h3>
+              <p>Digital manipulation of images to enhance quality, reduce noise, or extract specific features.</p>
+              
+              <h3>3. Object Detection</h3>
+              <p>Identifying the presence of specific objects within an image and their locations.</p>
+              
+              <div class="post-image-content">
+                <img src="../assets/img/blog/object-detection.jpg" alt="Object Detection Example" class="img-fluid">
+                <p class="image-caption">Figure 1: Example of object detection in real-time</p>
+              </div>
+              
+              <h3>4. Image Classification</h3>
+              <p>Categorizing what appears in an image from a set of predefined classes.</p>
+              
+              <h3>5. Feature Extraction</h3>
+              <p>Identifying key patterns and characteristics that help distinguish between different objects.</p>
+              
+              <h2>Common Computer Vision Techniques</h2>
+              
+              <h3>1. Convolutional Neural Networks (CNNs)</h3>
+              <p>Deep learning networks specifically designed for image processing tasks. CNNs automatically learn to extract relevant features from images through convolutional layers.</p>
+              
+              <h3>2. Edge Detection</h3>
+              <p>Identifying the boundaries of objects within images by detecting discontinuities in brightness.</p>
+              
+              <h3>3. Semantic Segmentation</h3>
+              <p>Classifying each pixel in an image into a specific category, creating a pixel-wise understanding of the scene.</p>
+              
+              <h2>Applications of Computer Vision</h2>
+              <p>Computer Vision has transformed numerous industries and continues to enable breakthrough applications:</p>
+              
+              <ul>
+                <li><strong>Autonomous Vehicles:</strong> Self-driving cars rely on computer vision to detect roads, traffic signs, pedestrians, and other vehicles.</li>
+                <li><strong>Healthcare:</strong> Medical image analysis for diagnosis, tumor detection, and surgical assistance.</li>
+                <li><strong>Retail:</strong> Cashierless stores, inventory management, and customer behavior analysis.</li>
+                <li><strong>Security:</strong> Facial recognition, surveillance, and anomaly detection.</li>
+                <li><strong>Agriculture:</strong> Crop monitoring, disease detection, and harvest optimization.</li>
+                <li><strong>Augmented Reality:</strong> Object tracking and environment mapping for AR applications.</li>
+              </ul>
+              
+              <h2>Challenges in Computer Vision</h2>
+              <p>Despite significant progress, several challenges remain:</p>
+              
+              <ul>
+                <li>Dealing with varying lighting conditions</li>
+                <li>Recognizing objects from different angles and distances</li>
+                <li>Handling occlusions (partially hidden objects)</li>
+                <li>Processing images in real-time</li>
+                <li>Ethical concerns regarding privacy and surveillance</li>
+              </ul>
+              
+              <p>As computational power increases and algorithms improve, computer vision continues to make strides toward human-level visual understanding, opening new possibilities for intelligent systems that can perceive and interact with the world around them.</p>
+              
+              <div class="post-tags">
+                <span class="tag">Computer Vision</span>
+                <span class="tag">AI</span>
+                <span class="tag">Image Processing</span>
+                <span class="tag">Object Detection</span>
+              </div>
+            </div>
+            
+            <!-- Share Post -->
+            <div class="share-post">
+              <h4>Share this post:</h4>
+              <div class="social-share">
+                <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+            
+            <!-- Related Posts -->
+            <div class="related-posts">
+              <h3>Related Posts</h3>
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="neural-networks.html">Introduction to Neural Networks</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="#">Deep Learning Fundamentals</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="#">Machine Learning Applications</a></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Prepogative Pointers<span>.</span></h3>
+            <p>
+              India <br><br>
+              <strong>Phone:</strong> +91 9888639756<br>
+              <strong>Email:</strong> prerogativepointers@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Navigations</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#spaceship">Upcoming Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#mission">Mission</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#Gallery">Teams</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Prepogative Pointers</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email" value="Enter your mail"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Prepogative Pointers</span></strong>. All Rights Reserved
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/prerogativepointers?igsh=MWsyYWtycGo2MGQyaA==" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/blog-post.js"></script>
+</body>
+
+</html>

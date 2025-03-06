@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post - Prerogative Pointers</title>
+  
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  
+  <!-- Main CSS Files -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/blog-style.css" rel="stylesheet">
+  <link href="../assets/css/blog-post-style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto">
+        <a href="../index.html">
+          <img src="../assets/img/PP-logo.webp" alt="Prerogative Pointers Logo" />
+        </a>
+      </h1>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="../index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#mission">Mission</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#Gallery">Team</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#spaceship">Upcoming Events</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#team">Archieve</a></li>
+          <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <a href="../technical-blog.html" class="get-started-btn scrollto active">BLOG!</a>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main" class="mt-5">
+    <!-- Blog Post Content -->
+    <section class="blog-post-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <!-- Back Button -->
+            <div class="back-button-container">
+              <a href="../technical-blog.html" class="back-button">
+                <i class="bi bi-arrow-left"></i> Back to Blog
+              </a>
+            </div>
+            
+            <!-- Post Header -->
+            <div class="post-header">
+              <div class="post-category" id="post-category">Artificial Intelligence</div>
+              <h1 class="post-title" id="post-title">Introduction to Neural Networks</h1>
+              <div class="post-meta">
+                <span class="post-date" id="post-date">May 15, 2024</span>
+                <span class="post-author" id="post-author">By Vaibhav Kesharwani</span>
+              </div>
+            </div>
+            
+            <!-- Featured Image -->
+            <div class="post-featured-image">
+              <img src="../assets/img/blog/placeholder.jpg" alt="Blog Featured Image" class="img-fluid" id="post-image">
+            </div>
+            
+            <!-- Post Content -->
+            <div class="post-content">
+              <p>Neural networks form the backbone of modern artificial intelligence systems. These computational models are inspired by the structure and function of the human brain, consisting of interconnected nodes (neurons) that process and transmit information.</p>
+              
+              <h2>What are Neural Networks?</h2>
+              <p>At their core, neural networks are a series of algorithms designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text, or time series, must be translated.</p>
+              
+              <p>Neural networks help us cluster and classify data. You can think of them as a clustering and classification layer on top of structured data. They help group unlabeled data according to similarities among example inputs, and classify data when they have a labeled dataset to train on.</p>
+              
+              <h2>Key Components of Neural Networks</h2>
+              
+              <h3>1. Neurons</h3>
+              <p>The basic unit of computation in a neural network is the neuron, a mathematical function that takes one or more inputs and produces an output. The output is typically a nonlinear transformation of a weighted sum of the inputs.</p>
+              
+              <h3>2. Architecture</h3>
+              <p>Neural networks have different layers of neurons:</p>
+              <ul>
+                <li><strong>Input Layer:</strong> Receives the initial data</li>
+                <li><strong>Hidden Layers:</strong> Performs computations and transfers information from input to output</li>
+                <li><strong>Output Layer:</strong> Produces the final result</li>
+              </ul>
+              
+              <div class="post-image-content">
+                <img src="../assets/img/blog/placeholder.jpg" alt="Neural Network Architecture" class="img-fluid">
+                <p class="image-caption">Figure 1: Typical architecture of a neural network</p>
+              </div>
+              
+              <h3>3. Weights and Biases</h3>
+              <p>The connections between neurons have associated weights that determine the strength of influence one neuron has on another. Each neuron also has a bias term that allows the activation function to be shifted.</p>
+              
+              <h2>How Neural Networks Learn</h2>
+              <p>Neural networks learn through a process called training, which involves:</p>
+              
+              <h3>1. Forward Propagation</h3>
+              <p>Input data is passed through the network, layer by layer, until it reaches the output layer. Each neuron applies its activation function to the weighted sum of its inputs.</p>
+              
+              <h3>2. Loss Calculation</h3>
+              <p>The difference between the predicted output and the actual target is measured using a loss function.</p>
+              
+              <h3>3. Backpropagation</h3>
+              <p>The error is propagated backward through the network, and the weights are adjusted to minimize this error.</p>
+              
+              <h3>4. Optimization</h3>
+              <p>An optimization algorithm, such as gradient descent, is used to update the weights in a way that reduces the loss.</p>
+              
+              <h2>Applications of Neural Networks</h2>
+              <p>Neural networks have revolutionized many fields and are applied in various domains:</p>
+              
+              <ul>
+                <li>Image and speech recognition</li>
+                <li>Natural language processing</li>
+                <li>Medical diagnosis</li>
+                <li>Financial forecasting</li>
+                <li>Autonomous vehicles</li>
+                <li>Recommendation systems</li>
+              </ul>
+              
+              <p>As computing power continues to grow and algorithms become more sophisticated, neural networks are expected to play an increasingly important role in solving complex problems and advancing artificial intelligence.</p>
+              
+              <div class="post-tags">
+                <span class="tag">AI</span>
+                <span class="tag">Neural Networks</span>
+                <span class="tag">Deep Learning</span>
+                <span class="tag">Machine Learning</span>
+              </div>
+            </div>
+            
+            <!-- Share Post -->
+            <div class="share-post">
+              <h4>Share this post:</h4>
+              <div class="social-share">
+                <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+            
+            <!-- Related Posts -->
+            <div class="related-posts">
+              <h3>Related Posts</h3>
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="#">Introduction to Machine Learning</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="#">Deep Learning Fundamentals</a></h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="blog-card small">
+                    <div class="blog-img">
+                      <img src="../assets/img/blog/placeholder.jpg" alt="Blog Image" class="img-fluid">
+                    </div>
+                    <div class="blog-content">
+                      <h3 class="blog-title"><a href="computer-vision.html">Computer Vision Basics</a></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Prepogative Pointers<span>.</span></h3>
+            <p>
+              India <br><br>
+              <strong>Phone:</strong> +91 9888639756<br>
+              <strong>Email:</strong> prerogativepointers@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Navigations</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#spaceship">Upcoming Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#mission">Mission</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../index.html#Gallery">Teams</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Prepogative Pointers</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email" value="Enter your mail"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Prepogative Pointers</span></strong>. All Rights Reserved
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/prerogativepointers?igsh=MWsyYWtycGo2MGQyaA==" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/blog-post.js"></script>
+</body>
+
+</html>
